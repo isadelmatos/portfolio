@@ -1,0 +1,105 @@
+#maoD {
+	animation: maoD ease-in-out 6s infinite alternate;
+	transform-origin: center;
+	transform-box: fill-box;
+	/* transform-origin: bottom; */
+}
+
+#maoE {
+	animation: maoE ease-in-out 6s infinite alternate;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+#sombD, #sombE {
+	animation: somb ease 3s infinite alternate;
+}
+
+#olhoD, #olhoE {
+	animation: olho ease-out 2s infinite alternate;
+}
+
+#piscadaD, #piscadaE {
+	animation: piscada ease-out 2s infinite alternate;
+}
+
+#boca {
+	animation: boca ease-in 3s infinite alternate;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+@keyframes maoE {
+	0% {
+		transform: translateX(15%);
+	}
+	10%, 30% {
+		transform: translateY(-40%);
+	}
+	20%, 40% {
+		transform: translateY(-30%);
+	}
+	45%, 80% {
+		transform: translateX(60%);
+	}
+}
+
+@keyframes maoD {
+	0%, 60% {
+		transform: translateX(0%);
+	}
+	10% {
+		transform: translateX(-60%);
+	}
+	65% {
+		transform: translateY(-40%);
+	}
+	75% {
+		transform: translateY(-30%);
+	}
+}
+
+@keyframes somb {
+	0% {
+		transform: translateY(0.6%);
+	}
+	50% {
+		transform: translateY(-0.6%);
+	}
+}
+
+@keyframes olho {
+	0%, 70% {
+		transform: translateX(0.5%);
+	}
+	20% {
+		transform: scaleY(0);
+	}
+	50%, 100% {
+		transform: translateX(-0.5%);
+	}
+}
+
+@keyframes boca {
+	0% {
+		transform: scaleX(0.8);
+		transform: scaleY(0.6);
+	}
+	50% {
+		/* transform: scaleX(0.9); */
+		transform: scaleY(0.8);
+	}
+	85% {
+		transform: scaleX(0.9);
+		transform: scaleY(1);
+	}
+}
+
+@keyframes piscada {
+	0%, 50%, 100% {
+		transform: scaleY(0);
+	}
+	20% {
+		transform: translateX(0%);
+	}
+}

@@ -1,0 +1,36 @@
+@import '../../styles/variables';
+
+.Projetos {
+    margin: 20rem 0;
+    padding: 3rem 25rem 5rem;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-rows: 50px 150px 1fr;
+
+    h2 {
+        font-family: $fonte-bold;
+        font-weight: 700;
+        font-size: 2.2rem;
+        color: $cor-verde;
+        position: relative;
+    }
+
+    &_cardProjetos {
+        place-content: center;
+        display: flex;
+        gap: 4rem;
+    }
+
+    @media screen and (max-width: 1024px) {
+        padding: 8rem 2rem 0;
+
+        h2 {
+            padding-left: 5rem;
+        }
+
+        &_cardProjetos {
+            place-self: center;
+            flex-direction: column;
+        }
+    }
+}

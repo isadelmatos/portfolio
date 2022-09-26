@@ -1,0 +1,28 @@
+@import './styles/variables';
+
+@font-face {
+  font-family: 'Monolisa-black';
+  src: url(../public/assets/fonts/monolisa-black-webfont.woff);
+}
+
+@font-face {
+  font-family: 'Monolisa-bold';
+  src: url(../public/assets/fonts/monolisa-bold-webfont.woff);
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $cor-background;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  color: $cor-branco;
+}
+
+a {
+  color: $cor-branco;
+}

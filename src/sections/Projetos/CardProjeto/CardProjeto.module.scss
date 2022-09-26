@@ -1,0 +1,48 @@
+@import '../../../styles/variables';
+
+.CardProjeto {
+    border: 2px solid $cor-branco;
+    border-radius: .8rem;
+    width: fit-content;
+
+    &_conteudo {
+        padding: 1rem 2rem;
+        max-width: calc(300px - 2rem);
+    }
+}
+
+.Conteudo {
+    &_titulo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1rem 0;
+        h4 {
+            font-family: $fonte-bold;
+            font-size: 1.8rem;
+        }
+    }
+
+    &_paragrafo {
+        max-width: 300px;
+        margin-bottom: 3rem;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        color: $cor-branco-suave;
+    }
+
+    &_listaTecnologias {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-bottom: 2rem;
+        li {
+            background-color: $cor-branco-suave;
+            color: $cor-background;
+            font-weight: 800;
+            font-size: 1.2rem;
+            padding: 0.4rem 0.8rem;
+            border-radius: .8rem;
+        }
+    }
+}

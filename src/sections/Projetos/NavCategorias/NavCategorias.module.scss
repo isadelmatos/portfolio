@@ -1,0 +1,44 @@
+@import '../../../styles/variables';
+
+.NavCategorias {
+    margin: 4rem 0 10rem 0;
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+        li > button {
+            background-color: transparent;
+            border: none;
+            color: $cor-branco-suave;
+            font-size: 2rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            &:hover {
+                text-decoration: underline wavy $cor-verde;
+            }
+        }
+
+        .ativo {
+            color: $cor-roxo;
+            text-decoration: underline wavy $cor-verde;
+        }
+    }
+
+    @media screen and (max-width: 720px) {
+        margin: 4rem 0 10rem ;
+        ul {
+            gap: 1rem;
+
+            li > button {
+                font-size: 1.6rem;
+            }
+
+            .ativo {
+                font-size: 1.8rem;
+            }
+        }
+    }
+}

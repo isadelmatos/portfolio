@@ -1,0 +1,86 @@
+@import '../../styles/variables';
+
+.EmailPlaceholder {
+    margin: 5rem auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    label {
+        align-self: flex-start;
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+
+    &_inputActions {
+        position: relative;
+        margin-right: 5rem;
+        z-index: 1;
+
+        input {
+            box-sizing: border-box;
+            width: 360px;
+            padding: 0.9rem 1.6rem;
+            font-family: 'Lato', sans-serif;
+            font-size: 1.6rem;
+            border: 2px solid $cor-branco;
+            background-color: $cor-background;
+            border-radius: 0.8rem;
+            color: $cor-branco;
+        }
+        button {
+            border: none;
+        }
+
+        button:first-of-type {
+            position: absolute;
+            top: 20%;
+            right: 5%;
+            background-color: transparent;
+            cursor: pointer;
+            color: $cor-branco;
+            transition: color 0.3s ease;
+            transition: top 0.1s ease-in-out;
+
+            &:hover {
+                top: 15%;
+                height: 3rem;
+                width: 3rem;
+                background-color: $cor-branco;
+                color: $cor-background;
+                border-radius: 50%;
+            }
+        }
+
+        button:last-of-type {
+            position: absolute;
+            height: 4rem;
+            width: 80px;
+            top: 0;
+            right: -15%;
+            padding-left: 3rem;
+            background-color: $cor-roxo;
+            border-radius: 0.8rem;
+            z-index: -1;
+            transition: background-color .3s ease;
+            cursor: pointer;
+            &:hover {
+                background-color: #7077FB;
+            }
+        }
+    }
+    @media screen and (max-width: 720px){
+        width: 300px;
+        &_inputActions {
+            input {
+                width: 260px;
+                font-size: 1.4rem;
+                padding: 1rem 1.6rem;
+            }
+            button:last-of-type {
+                right: -20%;
+            }
+        }
+    }
+}

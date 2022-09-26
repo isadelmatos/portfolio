@@ -1,0 +1,44 @@
+[
+    {
+        "titulo": "amigo-secreto",
+        "link": "https://github.com/isadelmatos/javascript-projects/tree/main/amigo-secreto",
+        "descricao": "Aplicação em construção. Projeto deverá ter a integração com uma API para o envio de mensagens de email personalizadas e funcionalidades CRUD para manipulação dos participantes e suas respectivas lista de desejos.",
+        "categoria": "Páginas",
+        "StackTags": ["TypeScript", "Node.js", "HTML e CSS", "Figma"]
+    },
+    {
+        "titulo": "formulário",
+        "link": "https://github.com/isadelmatos/javascript-projects/tree/main/formulario",
+        "descricao": "Formulário de cadastro com validações dos dados e mensagens de erro. Pratiquei a validação de CPF e animações com CSS.",
+        "categoria": "Componentes",
+        "StackTags": ["JavaScript", "HTML e CSS", "Figma"]
+    },
+    {
+        "titulo": "filmes-populares",
+        "link": "https://github.com/isadelmatos/popular-movies",
+        "descricao": "Single Page Application desenvolvida em desafio da Alura #7DaysOfCode. Coloquei em prática a arquitetura MVC, a integração do front-end com API e a persistência de dados com LocalStorage.",
+        "categoria": "Desafios",
+        "StackTags": ["JavaScript", "Node.js", "HTML e CSS"]
+    },
+    {
+        "titulo": "crud-lista-de-chamada",
+        "link": "https://github.com/isadelmatos/first-reactapp",
+        "descricao": "Projeto para manipulação de uma lista de chamada de estudantes. Desenvolvida durante primeiro contato com React.",
+        "categoria": "Páginas",
+        "StackTags": ["React", "JavaScript", "HTML e CSS"]
+    },
+    {
+        "titulo": "crud-de-anivesários",
+        "link": "https://github.com/isadelmatos/crud-birthdays",
+        "descricao": "Aplicação com funcionalidades CRUD desenvolvida em desafio da Alura #7DaysOfCode. Para a persistência de dados foi utilizada a API do LocalStorage.",
+        "categoria": "Desafios",
+        "StackTags": ["JavaScript", "HTML e CSS", "Figma"]
+    },
+    {
+        "titulo": "fintech-healthTrack",
+        "link": "https://github.com/isadelmatos/Fintech_HealthTrack",
+        "descricao": "Interface da fintech HealthTrack. A fintech é o projeto anual que estou dsenvolvendo no curso de ADS da FIAP.",
+        "categoria": "Acadêmicos",
+        "StackTags": ["HTML e CSS", "Figma"]
+    }
+]

@@ -1,0 +1,33 @@
+.Fim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20rem 0;
+    padding-top: 15rem;
+
+    p {
+        font-weight: 700;
+    }
+
+    p:first-of-type {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    p:last-of-type {
+        text-align: center;
+        font-size: 2.4rem;
+        max-width: 520px;
+    }
+
+    @media screen and (max-width: 720px){
+        p:first-of-type {
+            font-size: 2.8rem;
+        }
+        p:last-of-type {
+            font-size: 2rem;
+            
+        }
+    }
+}
