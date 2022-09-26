@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/isadelmatos/portfolio/static/css/main.4f83041b.css",
-    "main.js": "/isadelmatos/portfolio/static/js/main.53ed252f.js",
-    "static/media/Avatar.svg": "/isadelmatos/portfolio/static/media/Avatar.28364340f97ac0f2c759998260530d79.svg",
-    "static/media/monolisa-bold-webfont.woff": "/isadelmatos/portfolio/static/media/monolisa-bold-webfont.84257495005ccf8a4033.woff",
-    "static/media/monolisa-black-webfont.woff": "/isadelmatos/portfolio/static/media/monolisa-black-webfont.a7fe77abb001740356f0.woff",
-    "index.html": "/isadelmatos/portfolio/index.html",
-    "main.4f83041b.css.map": "/isadelmatos/portfolio/static/css/main.4f83041b.css.map",
-    "main.53ed252f.js.map": "/isadelmatos/portfolio/static/js/main.53ed252f.js.map"
+    "main.css": "/portfolio/static/css/main.5f83a8a9.css",
+    "main.js": "/portfolio/static/js/main.672d05f9.js",
+    "static/media/Avatar.svg": "/portfolio/static/media/Avatar.28364340f97ac0f2c759998260530d79.svg",
+    "static/media/monolisa-bold-webfont.woff": "/portfolio/static/media/monolisa-bold-webfont.84257495005ccf8a4033.woff",
+    "static/media/monolisa-black-webfont.woff": "/portfolio/static/media/monolisa-black-webfont.a7fe77abb001740356f0.woff",
+    "index.html": "/portfolio/index.html",
+    "main.5f83a8a9.css.map": "/portfolio/static/css/main.5f83a8a9.css.map",
+    "main.672d05f9.js.map": "/portfolio/static/js/main.672d05f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f83041b.css",
-    "static/js/main.53ed252f.js"
+    "static/css/main.5f83a8a9.css",
+    "static/js/main.672d05f9.js"
   ]
 }
