@@ -59,7 +59,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        padding: 5rem 5rem 0;
+        padding: 5rem 2rem 0;
         &_paragrafo,  &_experiencia, &_tecnologias {
             p, li {
                 margin-bottom: 0.8rem;
@@ -73,22 +73,6 @@
                 font-size: 2rem;
             }
         }
-
-        &_tecnologias {
-            &_lista {
-                margin-top: 1.6rem;
-                display: grid;
-                column-gap: 5rem;
-                grid-template-columns: 1fr 1fr;
-            }
-        }
-    }
-
-    @media screen and (max-width: 1300px) {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
 
         &_tecnologias {
             &_lista {

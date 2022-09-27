@@ -5,6 +5,10 @@
     border-radius: .8rem;
     width: fit-content;
 
+    img {
+        max-width: 100%;
+    }
+
     &_conteudo {
         padding: 1rem 2rem;
         max-width: calc(300px - 2rem);
@@ -43,6 +47,17 @@
             font-size: 1.2rem;
             padding: 0.4rem 0.8rem;
             border-radius: .8rem;
+        }
+    }
+    @media screen and (max-width: 425px){
+        &_titulo {
+            h4 {
+                font-size: 1.6rem;
+            }
+        }
+
+        &_paragrafo {
+            font-size: 1.4rem;
         }
     }
 }

@@ -8,6 +8,7 @@
 
     p {
         font-weight: 700;
+        text-align: center;
     }
 
     p:first-of-type {
@@ -16,18 +17,17 @@
     }
 
     p:last-of-type {
-        text-align: center;
         font-size: 2.4rem;
         max-width: 520px;
     }
 
     @media screen and (max-width: 720px){
         p:first-of-type {
-            font-size: 2.8rem;
+            font-size: 2.2rem;
         }
         p:last-of-type {
-            font-size: 2rem;
-            
+            font-size: 1.8rem;
+            max-width: 320px;
         }
     }
 }
